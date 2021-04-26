@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.box{
+    background-image: url(https://ae01.alicdn.com/kf/HTB1qSWeRFXXXXbxXXXXq6xXFXXXh/Beibehang-Custom-wallpaper-forest-park-shade-road-3d-landscape-background-wall-living-room-bedroom-TV-background.jpg);
+    width: 300px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-shadow: 6px 4px 31px #245b25;
+}
+h1{
+    color: white;
+    padding: 20px 10px;
+}
+.text{
+    width: 0;
+    height: 25px;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 10px;
+    white-space: nowrap;
+    transition: width 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .box:hover .text{
+      width: 100px;
+  }
+
+
+
+
+
+
